@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" type="image/x-icon" href="src/imgs/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="src/css/style.css"> 
+    <link rel="stylesheet" type="text/css" href="src/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="src/css/scrollbar.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <audio id="bg-sound" autoplay loop>
+        <source src="src/bgm.mp3" type="audio/mpeg">
+      </audio>
+    <header>
+        <a href="/"><img src="src/imgs/pokeball.png" alt="Pokemons" class="logo"></a>
+        <h1>Pokedex</h1>
+        <button  onclick="Theme()"><img id="theme" src="src/imgs/sun.png" alt="Change Theme"></button>
+    </header>
+    <main>
+        <div class="closeButton" id="closeButton"></div>
+        <div class="main-pokemon" id="main-pokemon"></div>
+        <ul class="list" id="list"></ul>
+    </main>
+    <script src="src/data/pokemons.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
