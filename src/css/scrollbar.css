@@ -1,0 +1,22 @@
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #f1e9e9;
+    border-radius: 10px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+    to bottom,
+    #a93434 0%,
+    #a93434 50%,
+    #fff 50%,
+    #fff 100%
+  );
+    /*background-color: #a93434, #fff;*/
+    border-radius: 10px;
+    border: 2px solid #000;
+  }
