@@ -206,6 +206,102 @@ var pokemons = [
       description:
       "Sua cauda descarrega eletricidade no chão, protegendo-o de choques.",
       stages:[]
+    },
+    {
+      name:"Sandshrew",
+      img:"",
+      types:["Terrestre"],
+      description:
+      "Adora banhar-se na areia de áreas secas e arenosas. Ao se banhar na areia, o Pokémon se livra da sujeira e da umidade grudadas em seu corpo.",
+      stages:[]
+    },
+    {
+      name:"Sandslash",
+      img:"",
+      types:["Terrestre"],
+      description:
+      "Quanto mais seca for a área em que Sandslash vive, mais duros e suaves serão os espinhos do Pokémon quando tocados.",
+      stages:[]
+    },
+    {
+      name:"Nidoran ♀",
+      img:"",
+      types:["Veneno"],
+      description:
+      "As fêmeas são mais sensíveis aos cheiros do que os machos. Enquanto forrageiam, eles usam seus bigodes para verificar a direção do vento e ficar a favor dos predadores.",
+      stages:[]
+    },
+    {
+      name:"Nidorina",
+      img:"",
+      types:["Veneno"],
+      description:
+      "O chifre em sua cabeça está atrofiado. Acredita-se que isso aconteça para que os filhos de Nidorina não sejam cutucados enquanto a mãe os alimenta.",
+      stages:[]
+    },
+    {
+      name:"Nidoqueen",
+      img:"",
+      types:["Veneno", "Terrestre"],
+      description:
+      "Nidoqueen é melhor na defesa do que no ataque. Com escamas como armaduras, este Pokémon protegerá seus filhos de qualquer tipo de ataque.",
+      stages:[]
+    },
+    {
+      name:"Nidoran ♂",
+      img:"",
+      types:["Veneno"],
+      description:
+      "O chifre na testa de um Nidoran masculino contém um poderoso veneno. Este é um Pokémon muito cauteloso, sempre esticando suas grandes orelhas.",
+      stages:[]
+    },
+    {
+      name:"Nidorino",
+      img:"",
+      types:["Veneno"],
+      description:
+      "Com um chifre mais duro que diamante, este Pokémon anda por aí quebrando pedregulhos enquanto procura uma pedra da lua.",
+      stages:[]
+    },
+    {
+      name:"Nidoking",
+      img:"",
+      types:["Veneno", "Terrestre"],
+      description:
+      "Quando fica furioso, é impossível controlar. Mas na presença de uma Nidoqueen com quem convive há muito tempo, Nidoking se acalma.",
+      stages:[]
+    },
+    {
+      name:"Clefairy",
+      img:"",
+      types:["Fada"],
+      description:
+      "Dizem que a felicidade virá para aqueles que virem uma reunião de Clefairy dançando sob a lua cheia.",
+      stages:[]
+    },
+    {
+      name:"Clefable",
+      img:"",
+      types:["Fada"],
+      description:
+      "Um tímido Pokémon fada que raramente é visto, ele corre e se esconde no momento em que detecta as pessoas.",
+      stages:[]
+    },
+    {
+      name:"Vulpix",
+      img:"",
+      types:["Fogo"],
+      description:
+      "Enquanto jovem, tem seis lindas caudas. Quando cresce, várias novas caudas brotam.",
+      stages:[]
+    },
+    {
+      name:"Ninetales",
+      img:"",
+      types:["Fogo"],
+      description:
+      "Diz-se que vive 1.000 anos e cada uma de suas caudas é carregada de poderes sobrenaturais.",
+      stages:[]
     }
   ];
   
@@ -248,3 +344,20 @@ var pokemons = [
   //pikachu
   pokemons[24].stages.push(pokemons[24],pokemons[25]);
   pokemons[25].stages.push(pokemons[24],pokemons[25]);
+  //sandshrew
+  pokemons[26].stages.push(pokemons[26],pokemons[27]);
+  pokemons[27].stages.push(pokemons[26],pokemons[27]);
+  //nidoran f
+  pokemons[28].stages.push(pokemons[28],pokemons[29],pokemons[30]);
+  pokemons[29].stages.push(pokemons[28],pokemons[29],pokemons[30]);
+  pokemons[30].stages.push(pokemons[28],pokemons[29],pokemons[30]);
+  //nidoran m
+  pokemons[31].stages.push(pokemons[31],pokemons[32],pokemons[33]);
+  pokemons[32].stages.push(pokemons[31],pokemons[32],pokemons[33]);
+  pokemons[33].stages.push(pokemons[31],pokemons[32],pokemons[33]);
+  //clefairy
+  pokemons[34].stages.push(pokemons[34],pokemons[35]);
+  pokemons[35].stages.push(pokemons[34],pokemons[35]);
+  //vulpix
+  pokemons[36].stages.push(pokemons[36],pokemons[37]);
+  pokemons[37].stages.push(pokemons[36],pokemons[37]);
