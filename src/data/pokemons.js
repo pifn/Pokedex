@@ -360,7 +360,7 @@ var pokemons = [
       stages:[]
     },
     {
-      nome:"Paras",
+      name:"Paras",
       img:"",
       types:["Inseto", "Grama"],
       description:
@@ -368,7 +368,7 @@ var pokemons = [
       stages:[]
     },
     {
-      nome:"Parasect",
+      name:"Parasect",
       img:"",
       types:["Inseto", "Grama"],
       description:
@@ -376,7 +376,7 @@ var pokemons = [
       stages:[]
     },
     {
-      nome:"Venonat",
+      name:"Venonat",
       img:"",
       types:["Inseto", "Veneno"],
       description:
@@ -384,7 +384,7 @@ var pokemons = [
       stages:[]
     },
     {
-      nome:"Venomoth",
+      name:"Venomoth",
       img:"",
       types:["Inseto", "Veneno"],
       description:
@@ -392,7 +392,7 @@ var pokemons = [
       stages:[]
     },
     {
-      nome:"Diglett",
+      name:"Diglett",
       img:"",
       types:["Terrestre"],
       description:
@@ -400,7 +400,7 @@ var pokemons = [
       stages:[]
     },
     {
-      nome:"Dugtrio",
+      name:"Dugtrio",
       img:"",
       types:["Terrestre"],
       description:
