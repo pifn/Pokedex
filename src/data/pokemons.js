@@ -302,6 +302,110 @@ var pokemons = [
       description:
       "Diz-se que vive 1.000 anos e cada uma de suas caudas é carregada de poderes sobrenaturais.",
       stages:[]
+    },
+    {
+      name:"Jigglypuff",
+      img:"",
+      types:["Normal", "Fada"],
+      description:
+      "Quando seus olhos enormes vacilam, ele canta uma melodia misteriosamente reconfortante que embala seus inimigos para dormir.",
+      stages:[]
+    },
+    {
+      name:"Wigglytuff",
+      img:"",
+      types:["Normal", "Fada"],
+      description:
+      "Tem uma pelagem muito fina. Tome cuidado para não irritá-lo, ou ele pode inflar continuamente e bater com força",
+      stages:[]
+    },
+    {
+      name:"Zubat",
+      img:"",
+      types:["Veneno", "Voador"],
+      description:
+      "Ele emite ondas ultrassônicas de sua boca para verificar seus arredores. Mesmo em cavernas apertadas, Zubat voa com habilidade.",
+      stages:[]
+    },
+    {
+      name:"Golbat",
+      img:"",
+      types:["Veneno", "Voador"],
+      description:
+      "Adora beber o sangue de outras criaturas. Diz-se que, se encontrar outros de sua espécie passando fome, às vezes compartilha o sangue que colheu.",
+      stages:[]
+    },
+    {
+      name:"Oddish",
+      img:"",
+      types:["Grama", "Veneno"],
+      description:
+      "Se exposto ao luar, ele começa a se mover. Ele vagueia por toda parte à noite para espalhar suas sementes.",
+      stages:[]
+    },
+    {
+      name:"Gloom",
+      img:"",
+      types:["Grama", "Veneno"],
+      description:
+      "Seus pistilos exalam uma incrível falta. O fedor horrível pode causar desmaios a uma distância de 2km.",
+      stages:[]
+    },
+    {
+      name:"Vileplume",
+      img:"",
+      types:["Grama", "Veneno"],
+      description:
+      "Tem as maiores pétalas do mundo. A cada passo, as pétalas sacodem pesadas nuvens de pólen tóxico.",
+      stages:[]
+    },
+    {
+      nome:"Paras",
+      img:"",
+      types:["Inseto", "Grama"],
+      description:
+      "Tocas sob o solo para roer as raízes das árvores. Os cogumelos nas costas absorvem a maior parte da nutrição.",
+      stages:[]
+    },
+    {
+      nome:"Parasect",
+      img:"",
+      types:["Inseto", "Grama"],
+      description:
+      "O hospedeiro do inseto é drenado de energia pelo cogumelo em suas costas. O cogumelo parece fazer todo o pensamento.",
+      stages:[]
+    },
+    {
+      nome:"Venonat",
+      img:"",
+      types:["Inseto", "Veneno"],
+      description:
+      "O veneno escorre de todo o seu corpo. Ele pega pequenos Pokémon insetos à noite que são atraídos pela luz.",
+      stages:[]
+    },
+    {
+      nome:"Venomoth",
+      img:"",
+      types:["Inseto", "Veneno"],
+      description:
+      "As asas são cobertas com escamas semelhantes a poeira. Cada vez que bate as asas, solta poeira altamente tóxica.",
+      stages:[]
+    },
+    {
+      nome:"Diglett",
+      img:"",
+      types:["Terrestre"],
+      description:
+      "Ele vive cerca de um metro no subsolo, onde se alimenta de raízes de plantas. Às vezes aparece acima do solo.",
+      stages:[]
+    },
+    {
+      nome:"Dugtrio",
+      img:"",
+      types:["Terrestre"],
+      description:
+      "Suas três cabeças balançam separadamente para cima e para baixo para soltar o solo próximo, facilitando a escavação.",
+      stages:[]
     }
   ];
   
@@ -361,3 +465,22 @@ var pokemons = [
   //vulpix
   pokemons[36].stages.push(pokemons[36],pokemons[37]);
   pokemons[37].stages.push(pokemons[36],pokemons[37]);
+  //jigglypuff
+  pokemons[38].stages.push(pokemons[38],pokemons[39]);
+  pokemons[39].stages.push(pokemons[38],pokemons[39]);
+  //zubat
+  pokemons[40].stages.push(pokemons[40],pokemons[41]);
+  pokemons[41].stages.push(pokemons[40],pokemons[41]);
+  //oddish
+  pokemons[42].stages.push(pokemons[42],pokemons[43],pokemons[44]);
+  pokemons[43].stages.push(pokemons[42],pokemons[43],pokemons[44]);
+  pokemons[44].stages.push(pokemons[42],pokemons[43],pokemons[44]);
+  //paras
+  pokemons[45].stages.push(pokemons[45],pokemons[46]);
+  pokemons[46].stages.push(pokemons[45],pokemons[46]);
+  //venonat
+  pokemons[47].stages.push(pokemons[47],pokemons[48]);
+  pokemons[48].stages.push(pokemons[47],pokemons[48]);
+  //digglet
+  pokemons[49].stages.push(pokemons[49],pokemons[50]);
+  pokemons[50].stages.push(pokemons[49],pokemons[50]);
