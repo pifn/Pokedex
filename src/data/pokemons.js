@@ -5,7 +5,7 @@ var pokemons = [
       types: ["Grama", "Veneno"],
       description:
         "Há uma semente de planta em suas costas desde o dia que este Pokémon nasce. A semente cresce lentamente.",
-      stages: [],
+      stages: []
     },
     {
       name: "Ivysaur",
@@ -13,7 +13,7 @@ var pokemons = [
       types: ["Grama", "Veneno"],
       description:
         "Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar de pé em suas patas traseiras.",
-      stages: [],
+      stages: []
     },
     {
       name: "Venusaur",
@@ -21,7 +21,7 @@ var pokemons = [
       types: ["Grama", "Veneno"],
       description:
         "Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz solar.",
-      stages: [],
+      stages: []
     },
     {
       name: "Charmander",
@@ -29,7 +29,7 @@ var pokemons = [
       types: ["Fogo"],
       description:
         "Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.",
-      stages: [],
+      stages: []
     },
     {
       name: "Charmeleon",
@@ -37,7 +37,7 @@ var pokemons = [
       types: ["Fogo"],
       description:
         "Tem uma natureza bárbara. Na batalha, ele chicoteia sua cauda ardente e corta com garras afiadas.",
-      stages: [],
+      stages: []
     },
     {
       name: "Charizard",
@@ -45,7 +45,7 @@ var pokemons = [
       types: ["Fogo", "Voador"],
       description:
         "Ele cospe fogo que é quente o suficiente para derreter pedregulhos. Pode causar incêndios florestais soprando chamas.",
-      stages: [],
+      stages: []
     },
     {
       name: "Squirtle",
@@ -53,7 +53,7 @@ var pokemons = [
       types: ["Água"],
       description:
         "Quando ele retrai seu longo pescoço em sua concha, ele esguicha água com força vigorosa.",
-      stages: [],
+      stages: []
     },
     {
       name: "Wartortle",
@@ -61,7 +61,7 @@ var pokemons = [
       types: ["Água"],
       description:
         "É reconhecido como um símbolo de longevidade. Se sua concha tem algas, esse Wartortle é muito antigo.",
-      stages: [],
+      stages: []
     },
     {
       name: "Blastoise",
@@ -69,7 +69,7 @@ var pokemons = [
       types: ["Água"],
       description:
         "Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará dentro de sua concha.",
-      stages: [],
+      stages: []
     },
     {
       name: "Caterpie",
@@ -77,7 +77,7 @@ var pokemons = [
       types: ["Inseto"],
       description:
         "Para proteção, ele libera um fedor horrível da antena em sua cabeça para afastar os inimigos.",
-      stages: [],
+      stages: []
     },
     {
       name: "Metapod",
@@ -85,7 +85,7 @@ var pokemons = [
       types: ["Inseto"],
       description:
         "Está esperando o momento de evoluir. Nesta fase, só pode endurecer, por isso permanece imóvel para evitar o ataque.",
-      stages: [],
+      stages: []
     },
     {
       name: "Butterfree",
@@ -93,7 +93,7 @@ var pokemons = [
       types: ["Inseto", "Voador"],
       description:
         "Coleta mel todos os dias. Esfrega mel nos pelos das pernas para levá-lo de volta ao ninho.",
-      stages: [],
+      stages: []
     },
     {
       name: "Weedle",
@@ -101,7 +101,7 @@ var pokemons = [
       types:["Inseto", "Veneno"],
       description:
       "Cuidado com o ferrão afiado na cabeça. Esconde-se na grama e nos arbustos onde come folhas.",
-      stages: [],
+      stages: []
     },
     {
       name:"Kakuna",
@@ -109,7 +109,7 @@ var pokemons = [
       types:["Inseto", "Veneno"],
       description:
       "Capaz de se mover apenas ligeiramente. Quando ameaçado, pode espetar seu ferrão e envenenar seu inimigo.",
-      stages:[],
+      stages:[]
     },
     {
       name:"Beedrill",
@@ -406,6 +406,129 @@ var pokemons = [
       description:
       "Suas três cabeças balançam separadamente para cima e para baixo para soltar o solo próximo, facilitando a escavação.",
       stages:[]
+    },
+    {
+      name:"Meowth",
+      img:"",
+      types:["Normal"],
+      description:
+      "Tudo o que faz é dormir durante o dia. À noite, patrulha seu território com os olhos brilhando.",
+      stages:[]
+    },
+    {
+      name:"Persian",
+      img:"",
+      types:["Normal"],
+      description:
+      "Embora seu pelo tenha muitos admiradores, é difícil criá-lo como animal de estimação por causa de sua mesquinhez inconstante.",
+      stages:[]
+    },
+    {
+      name:"Psyduck",
+      img:"",
+      types:["Água"],
+      description:
+      "É constantemente assolado por uma dor de cabeça. Quando a dor de cabeça fica intensa, ela começa a usar poderes misteriosos.",
+      stages:[]
+    },
+    {
+      name:"Golduck",
+      img:"",
+      types:["Água"],
+      description:
+      "Quando nada a toda velocidade usando seus longos membros palmados, sua testa de alguma forma começa a brilhar.",
+      stages:[]
+    },
+    {
+      name:"Mankey",
+      img:"",
+      types:["Lutador"],
+      description:
+      "Vive em grupos nas copas das árvores. Se perde de vista seu grupo, fica furioso com sua solidão.",
+      stages:[]
+    },
+    {
+      name:"Primeape",
+      img:"",
+      types:["Lutador"],
+      description:
+      "Ele fica extremamente furioso se sentir que alguém está olhando para ele. Ele persegue qualquer um que encontre seu brilho.",
+      stages:[]
+    },
+    {
+      name:"Growlithe",
+      img:"",
+      types:["Fogo"],
+      description:
+      "Tem uma natureza corajosa e confiável. Ele enfrenta destemidamente inimigos maiores e mais fortes.",
+      stages:[]
+    },
+    {
+      name:"Arcanine",
+      img:"",
+      types:["Fogo"],
+      description:
+      "Um pergaminho antigo mostra que as pessoas foram cativadas por seu movimento enquanto corria pelas pradarias.",
+      stages:[]
+    },
+    {
+      name:"Poliwag",
+      img:"",
+      types:["Água"],
+      description:
+      "Para Poliwag, nadar é mais fácil do que caminhar. O padrão de redemoinho em sua barriga é, na verdade, parte das entranhas do Pokémon que aparecem através da pele.",
+      stages:[]
+    },
+    {
+      name:"Poliwhirl",
+      img:"",
+      types:["Água"],
+      description:
+      "Olhar para o redemoinho em sua barriga causa sonolência. Essa característica de Poliwhirl tem sido usada no lugar de canções de ninar para fazer as crianças dormirem.",
+      stages:[]
+    },
+    {
+      name:"Poliwrath",
+      img:"",
+      types:["Água"],
+      description:
+      "Seu corpo é músculo sólido. Ao nadar em mares frios, Poliwrath usa seus braços impressionantes para quebrar o gelo flutuante e seguir em frente.",
+      stages:[]
+    },
+    {
+      name:"Abra",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "Este Pokémon usa seus poderes psíquicos enquanto dorme. O conteúdo dos sonhos de Abra afeta os poderes que o Pokémon possui.",
+      stages:[]
+    },
+    {
+      name:"Kadabra",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "Usando seu poder psíquico, Kadabra levita enquanto dorme. Ele usa sua cauda elástica como travesseiro.",
+      stages:[]
+    },
+    {
+      name:"Alakazam",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "Tem um nível incrivelmente alto de inteligência. Alguns dizem que Alakazam se lembra de tudo o que acontece com ele, desde o nascimento até a morte.",
+      stages:[]
+    },
+    {
+      name:"Machop",
+      img:"",
+      types:["Lutador"],
+      description:
+      "Todo o seu corpo é composto por músculos. Mesmo sendo do tamanho de uma criança humana, pode arremessar 100 adultos.",
+      stages:[]
+    },
+    {
+      name:"Machoke"
     }
   ];
   
