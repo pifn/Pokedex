@@ -95,6 +95,118 @@ var pokemons = [
         "Coleta mel todos os dias. Esfrega mel nos pelos das pernas para levá-lo de volta ao ninho.",
       stages: [],
     },
+    {
+      name: "Weedle",
+      img: "",
+      types:["Inseto", "Veneno"],
+      description:
+      "Cuidado com o ferrão afiado na cabeça. Esconde-se na grama e nos arbustos onde come folhas.",
+      stages: [],
+    },
+    {
+      name:"Kakuna",
+      img:"",
+      types:["Inseto", "Veneno"],
+      description:
+      "Capaz de se mover apenas ligeiramente. Quando ameaçado, pode espetar seu ferrão e envenenar seu inimigo.",
+      stages:[],
+    },
+    {
+      name:"Beedrill",
+      img:"",
+      types:["Inseto", "Veneno"],
+      description:
+      "Tem três ferrões venenosos nas patas dianteiras e na cauda. Eles são usados para atacar seu inimigo repetidamente.",
+      stages:[]
+    },
+    {
+      name:"Pidgey",
+      img:"",
+      types:["Normal","Voador"],
+      description:
+      "Muito dócil. Se atacado, muitas vezes chuta areia para se proteger em vez de revidar.",
+      stages:[]
+    },
+    {
+      name:"Pidgeotto",
+      img:"",
+      types:["Normal","Voador"],
+      description:
+      "Este Pokémon é cheio de vitalidade. Ele voa constantemente ao redor de seu grande território em busca de presas.",
+      stages:[]
+    },
+    {
+      name:"Pidgeot",
+      img:"",
+      types:["Normal","Voador"],
+      description:
+      "Este Pokémon voa na velocidade de Mach 2(2,385.36 Km/h), procurando presas. Suas grandes garras são temidas como armas perversas.",
+      stages:[]
+    },
+    {
+      name:"Rattata",
+      img:"",
+      types:["Normal"],
+      description:
+      "Vai mastigar qualquer coisa com suas presas. Se você vir um, pode ter certeza de que mais 40 moram na área.",
+      stages:[]
+    },
+    {
+      name:"Raticate",
+      img:"",
+      types:["Normal"],
+      description:
+      "Suas patas traseiras são de teia. Eles atuam como nadadeiras, para que possa nadar em rios e caçar presas.",
+      stages:[]
+    },
+    {
+      name:"Spearow",
+      img:"",
+      types:["Normal", "Voador"],
+      description:
+      "Inepto em voar alto. No entanto, ele pode voar muito rápido para proteger seu território.",
+      stages:[]
+    },
+    {
+      name:"Fearow",
+      img:"",
+      types:["Normal", "Voador"],
+      description:
+      "Um Pokémon que remonta a muitos anos. Se sentir perigo, voa alto e para longe, instantaneamente.",
+      stages:[]
+    },
+    {
+      name:"Ekans",
+      img:"",
+      types:["Veneno"],
+      description:
+      "Quanto mais velho fica, mais cresce. À noite, envolve seu longo corpo nos galhos das árvores para descansar.",
+      stages:[]
+    },
+    {
+      name:"Arbok",
+      img:"",
+      types:["Veneno"],
+      description:
+      "Os padrões assustadores em sua barriga foram estudados. Seis variações foram confirmadas.",
+      stages:[]
+    },
+    {
+      name:"Pikachu",
+      img:"",
+      types:["Elétrico"],
+      description:
+      "Quando está com raiva, descarrega imediatamente a energia armazenada nas bolsas de suas bochechas.",
+      stages:[]
+    },
+    {
+      name:"Raichu",
+      img:"",
+      types:["Eletrico"],
+      description:
+      "Sua cauda descarrega eletricidade no chão, protegendo-o de choques.",
+      stages:[]
+    }
   ];
   
   for (var i = 0; i < pokemons.length; i++) {
@@ -116,4 +228,23 @@ var pokemons = [
   pokemons[9].stages.push(pokemons[9], pokemons[10], pokemons[11]);
   pokemons[10].stages.push(pokemons[9], pokemons[10], pokemons[11]);
   pokemons[11].stages.push(pokemons[9], pokemons[10], pokemons[11]);
-  
+  //weedle
+  pokemons[12].stages.push(pokemons[12],pokemons[13],pokemons[14]);
+  pokemons[13].stages.push(pokemons[12],pokemons[13],pokemons[14]);
+  pokemons[14].stages.push(pokemons[12],pokemons[13],pokemons[14]);
+  //pidgey
+  pokemons[15].stages.push(pokemons[15],pokemons[16],pokemons[17]);
+  pokemons[16].stages.push(pokemons[15],pokemons[16],pokemons[17]);
+  pokemons[17].stages.push(pokemons[15],pokemons[16],pokemons[17]);
+  //rattata
+  pokemons[18].stages.push(pokemons[18],pokemons[19]);
+  pokemons[19].stages.push(pokemons[18],pokemons[19]);
+  //spearow
+  pokemons[20].stages.push(pokemons[20],pokemons[21]);
+  pokemons[21].stages.push(pokemons[20],pokemons[21]);
+  //ekans
+  pokemons[22].stages.push(pokemons[22],pokemons[23]);
+  pokemons[23].stages.push(pokemons[22],pokemons[23]);
+  //pikachu
+  pokemons[24].stages.push(pokemons[24],pokemons[25]);
+  pokemons[25].stages.push(pokemons[24],pokemons[25]);
