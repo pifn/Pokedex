@@ -1005,7 +1005,7 @@ var pokemons = [
       types:["Fogo"],
       description:
       "Magmar despacha sua presa com fogo. Mas ele se arrepende desse hábito quando percebe que queimou sua presa pretendida em uma batata frita carbonizada.",
-      stageS:[]
+      stages:[]
     },
     {
       name:"Pinsir",
