@@ -10,8 +10,9 @@ audio.play();
 document.addEventListener("mousemove", function() {
   audio.play();
 });
-
-
+if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+  document.body.classList.push("dark");
+}
 ShowPokemons();
 function ShowPokemons() {
   closeButton.innerHTML = "";
