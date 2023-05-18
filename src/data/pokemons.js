@@ -1094,78 +1094,189 @@ var pokemons = [
       description:
       "Tecnologia de ponta foi usada para criar Porygon. Foi o primeiro Pokémon artificial a ser criado por meio de programação de computador.",
       stages:[]
+    },
+    {
+      name:"Omanyte",
+      img:"",
+      types:["Pedra", "Água"],
+      description:
+      "Como alguns Omanyte conseguem escapar após serem restaurados ou são soltos na natureza por pessoas, essa espécie está se tornando um problema.",
+      stages:[]
+    },
+    {
+      name:"Omastar",
+      img:"",
+      types:["Pedra", "Água"],
+      description:
+      "Pesado por uma concha grande e pesada, Omastar não conseguia se mover muito rápido. Alguns dizem que foi extinto porque não conseguia pegar comida.",
+      stages:[]
+    },
+    {
+      name:"Kabuto",
+      img:"",
+      types:["Pedra", "Água"],
+      description:
+      "Esta espécie está quase totalmente extinta. Kabuto muda a cada três dias, tornando suas cascas cada vez mais duras.",
+      stages:[]
+    },
+    {
+      name:"Kabutops",
+      img:"",
+      types:["Pedra", "Água"],
+      description:
+      "Kabutops corta sua presa e suga os fluidos. As partes do corpo descartadas se tornam comida para outros Pokémon.",
+      stages:[]
+    },
+    {
+      name:"Aerodactyl",
+      img:"",
+      types:["Pedra", "Voador"],
+      description:
+      "Este é um Pokémon feroz dos tempos antigos. Aparentemente, mesmo a tecnologia moderna é incapaz de produzir um espécime perfeitamente restaurado.",
+      stages:[]
+    },
+    {
+      name:"Snorlax",
+      img:"",
+      types:["Normal"],
+      description:
+      "Não fica satisfeito a menos que coma mais de 880 libras(399.16kg) de comida todos os dias. Quando termina de comer, vai imediatamente dormir.",
+      stages:[]
+    },
+    {
+      name:"Articuno",
+      img:"",
+      types:["Gelo", "Voador"],
+      description:
+      "Dizem que as belas asas azuis deste Pokémon são feitas de gelo. Articuno voa sobre montanhas nevadas, sua longa cauda esvoaçando atrás de si.",
+      stages:[]
+    },
+    {
+      name:"Zapdos",
+      img:"",
+      types:["Elétrico", "Voador"],
+      description:
+      "Este Pokémon tem controle total sobre a eletricidade. Existem histórias de Zapdos aninhando-se nas profundezas escuras de nuvens negras como breu.",
+      stages:[]
+    },
+    {
+      name:"Moltres",
+      img:"",
+      types:["Fogo", "Voador"],
+      description:
+      "É um dos Pokémon pássaros lendários. Quando Moltres bate suas asas flamejantes, elas brilham com um brilho vermelho deslumbrante.",
+      stages:[]
+    },
+    {
+      name:"Dratini",
+      img:"",
+      types:["Dragão"],
+      description:
+      "Ele lança muitas camadas de pele à medida que cresce. Durante este processo, é protegido por uma rápida cachoeira."
+    },
+    {
+      name:"Dragonair",
+      img:"",
+      types:["Dragão"],
+      description:
+      "Dizem que se emitir uma aura de todo o corpo, o clima começará a mudar instantaneamente.",
+      stages:[]
+    },
+    {
+      name:"Dragonite",
+      img:"",
+      types:["Dragão", "Voador"],
+      description:
+      "Diz-se que algures no oceano existe uma ilha onde estes se reúnem. Só eles moram lá.",
+      stages:[]
+    },
+    {
+      name:"Mewtwo",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "Seu DNA é quase o mesmo de Mew. No entanto, seu tamanho e disposição são muito diferentes.",
+      stages:[]
+    },
+    {
+      name:"Mew",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "Quando visto através de um microscópio, o cabelo curto, fino e delicado deste Pokémon pode ser visto.",
+      stages:[]
     }
   ];
-  //bulbasaur
+  //Bulbasaur
 pokemons[0].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[1].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[2].stages.push(pokemons[0], pokemons[1], pokemons[2]);
-//charmander
+//Charmander
 pokemons[3].stages.push(pokemons[3], pokemons[4], pokemons[5]);
 pokemons[4].stages.push(pokemons[3], pokemons[4], pokemons[5]);
 pokemons[5].stages.push(pokemons[3], pokemons[4], pokemons[5]);
-//squirtle
+//Squirtle
 pokemons[6].stages.push(pokemons[6], pokemons[7], pokemons[8]);
 pokemons[7].stages.push(pokemons[6], pokemons[7], pokemons[8]);
 pokemons[8].stages.push(pokemons[6], pokemons[7], pokemons[8]);
-//caterpie
+//Caterpie
 pokemons[9].stages.push(pokemons[9], pokemons[10], pokemons[11]);
 pokemons[10].stages.push(pokemons[9], pokemons[10], pokemons[11]);
 pokemons[11].stages.push(pokemons[9], pokemons[10], pokemons[11]);
-//weedle
+//Weedle
 pokemons[12].stages.push(pokemons[12], pokemons[13], pokemons[14]);
 pokemons[13].stages.push(pokemons[12], pokemons[13], pokemons[14]);
 pokemons[14].stages.push(pokemons[12], pokemons[13], pokemons[14]);
-//pidgey
+//Pidgey
 pokemons[15].stages.push(pokemons[15], pokemons[16], pokemons[17]);
 pokemons[16].stages.push(pokemons[15], pokemons[16], pokemons[17]);
 pokemons[17].stages.push(pokemons[15], pokemons[16], pokemons[17]);
-//rattata
+//Rattata
 pokemons[18].stages.push(pokemons[18], pokemons[19]);
 pokemons[19].stages.push(pokemons[18], pokemons[19]);
-//spearow
+//Spearow
 pokemons[20].stages.push(pokemons[20], pokemons[21]);
 pokemons[21].stages.push(pokemons[20], pokemons[21]);
-//ekans
+//Ekans
 pokemons[22].stages.push(pokemons[22], pokemons[23]);
 pokemons[23].stages.push(pokemons[22], pokemons[23]);
-//pikachu
+//Pikachu
 pokemons[24].stages.push(pokemons[24], pokemons[25]);
 pokemons[25].stages.push(pokemons[24], pokemons[25]);
-//sandshrew
+//Sandshrew
 pokemons[26].stages.push(pokemons[26], pokemons[27]);
 pokemons[27].stages.push(pokemons[26], pokemons[27]);
-//nidoran f
+//Nidoran f
 pokemons[28].stages.push(pokemons[28], pokemons[29], pokemons[30]);
 pokemons[29].stages.push(pokemons[28], pokemons[29], pokemons[30]);
 pokemons[30].stages.push(pokemons[28], pokemons[29], pokemons[30]);
-//nidoran m
+//Nidoran m
 pokemons[31].stages.push(pokemons[31], pokemons[32], pokemons[33]);
 pokemons[32].stages.push(pokemons[31], pokemons[32], pokemons[33]);
 pokemons[33].stages.push(pokemons[31], pokemons[32], pokemons[33]);
-//clefairy
+//Clefairy
 pokemons[34].stages.push(pokemons[34], pokemons[35]);
 pokemons[35].stages.push(pokemons[34], pokemons[35]);
-//vulpix
+//Vulpix
 pokemons[36].stages.push(pokemons[36], pokemons[37]);
 pokemons[37].stages.push(pokemons[36], pokemons[37]);
-//jigglypuff
+//Jigglypuff
 pokemons[38].stages.push(pokemons[38], pokemons[39]);
 pokemons[39].stages.push(pokemons[38], pokemons[39]);
-//zubat
+//Zubat
 pokemons[40].stages.push(pokemons[40], pokemons[41]);
 pokemons[41].stages.push(pokemons[40], pokemons[41]);
-//oddish
+//Oddish
 pokemons[42].stages.push(pokemons[42], pokemons[43], pokemons[44]);
 pokemons[43].stages.push(pokemons[42], pokemons[43], pokemons[44]);
 pokemons[44].stages.push(pokemons[42], pokemons[43], pokemons[44]);
-//paras
+//Paras
 pokemons[45].stages.push(pokemons[45], pokemons[46]);
 pokemons[46].stages.push(pokemons[45], pokemons[46]);
-//venonat
+//Venonat
 pokemons[47].stages.push(pokemons[47], pokemons[48]);
 pokemons[48].stages.push(pokemons[47], pokemons[48]);
-//digglet
+//Digglet
 pokemons[49].stages.push(pokemons[49], pokemons[50]);
 pokemons[50].stages.push(pokemons[49], pokemons[50]);
 //Meowth
@@ -1302,4 +1413,27 @@ pokemons[134].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[
 pokemons[135].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
 //Porygon
 pokemons[136].stages.push(pokemons[136]);
-
+//Omanyte
+pokemons[137].stages.push(pokemons[137], pokemons[138]);
+pokemons[138].stages.push(pokemons[137], pokemons[138]);
+//Kabuto
+pokemons[139].stages.push(pokemons[139], pokemons[140]);
+pokemons[140].stages.push(pokemons[139], pokemons[140]);
+//Aerodactyl
+pokemons[141].stages.push(pokemons[141]);
+//Snorlax
+pokemons[142].stages.push(pokemons[142]);
+//Articuno
+pokemons[143].stages.push(pokemons[143]);
+//Zapdos
+pokemons[144].stages.push(pokemons[144]);
+//Moltres
+pokemons[145].stages.push(pokemons[145]);
+//Dratini
+pokemons[146].stages.push(pokemons[146], pokemons[147], pokemons[148]);
+pokemons[147].stages.push(pokemons[146], pokemons[147], pokemons[148]);
+pokemons[148].stages.push(pokemons[146], pokemons[147], pokemons[148]);
+//Mewtwo
+pokemons[149].stages.push(pokemons[149]);
+//Mew
+pokemons[150].stages.push(pokemons[150]);
