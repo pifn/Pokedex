@@ -925,7 +925,7 @@ var pokemons = [
       types:["Água"],
       description:
       "Horsea faz sua casa em oceanos com correntes suaves. Se este Pokémon estiver sob ataque, ele cospe tinta preta e foge.",
-      stageS:[]
+      stages:[]
     },
     {
       name:"Seadra",
@@ -974,79 +974,198 @@ var pokemons = [
       description:
       "A largura de suas mãos pode não ser coincidência - muitos cientistas acreditam que suas palmas foram aumentadas especificamente para pantomima.",
       stages:[]
+    },
+    {
+      name:"Scyther",
+      img:"",
+      types:["Inseto", "Voador"],
+      description:
+      "Ele corta a grama com suas foices afiadas, movendo-se rápido demais para ser rastreado pelo olho humano.",
+      stages:[]
+    },
+    {
+      name:"Jynx",
+      img:"",
+      types:["Gelo", "Psíquico"],
+      description:
+      "Em certas partes de Galar, Jynx já foi temida e adorada como a Rainha do Gelo.",
+      stages:[]
+    },
+    {
+      name:"Electabuzz",
+      img:"",
+      types:["Elétrico"],
+      description:
+      "Muitas usinas de energia mantêm Pokémon do tipo Ground por perto como uma defesa contra Electabuzz que vem em busca de eletricidade.",
+      stages:[]
+    },
+    {
+      name:"Magmar",
+      img:"",
+      types:["Fogo"],
+      description:
+      "Magmar despacha sua presa com fogo. Mas ele se arrepende desse hábito quando percebe que queimou sua presa pretendida em uma batata frita carbonizada.",
+      stageS:[]
+    },
+    {
+      name:"Pinsir",
+      img:"",
+      types:["Inseto"],
+      description:
+      "Esses Pokémon julgam uns aos outros com base em pinças. Pinças mais grossas e impressionantes criam mais popularidade com o sexo oposto.",
+      stages:[]
+    },
+    {
+      name:"Tauros",
+      img:"",
+      types:["Normal"],
+      description:
+      "Uma vez que aponta para sua presa, ele faz uma carga de cabeça. É famoso por sua natureza violenta.",
+      stages:[]
+    },
+    {
+      name:"Magikarp",
+      img:"",
+      types:["Água"],
+      description:
+      "Um Pokémon patético e pouco poderoso. Pode saltar alto em raras ocasiões, mas nunca mais de dois metros.",
+      stages:[]
+    },
+    {
+      name:"Gyarados",
+      img:"",
+      types:["Água", "Voador"],
+      description:
+      "Uma vez que aparece, ele entra em fúria. Ele permanece enfurecido até destruir tudo ao seu redor.",
+      stages:[]
+    },
+    {
+      name:"Lapras",
+      img:"",
+      types:["Água"],
+      description:
+      "Um Pokémon inteligente e de bom coração, ele desliza pela superfície do mar enquanto sua bela música ecoa ao seu redor.",
+      stages:[]
+    },
+    {
+      name:"Ditto",
+      img:"",
+      types:["Normal"],
+      description:
+      "Sua capacidade de transformação é perfeita. No entanto, se for feito para rir, não consegue manter seu disfarce.",
+      stages:[]
+    },
+    {
+      name:"Eevee",
+      img:"",
+      types:["Normal"],
+      description:
+      "Sua capacidade de evoluir em muitas formas permite que ela se adapte suave e perfeitamente a qualquer ambiente.",
+      stages:[]
+    },
+    {
+      name:"Vaporeon",
+      img:"",
+      types:["Água"],
+      description:
+      "Vive perto da água. Sua longa cauda é marcada por uma barbatana, que muitas vezes é confundida com a de uma sereia.",
+      stages:[]
+    },
+    {
+      name:"Jolteon",
+      img:"",
+      types:["Elétrico"],
+      description:
+      "Ele concentra as fracas cargas elétricas emitidas por suas células e lança raios perversos.",
+      stages:[]
+    },
+    {
+      name:"Flareon",
+      img:"",
+      types:["Fogo"],
+      description:
+      "O ar inalado é levado ao seu saco de chamas, aquecido e exalado como fogo que atinge mais de 3.000 graus Fahrenheit.",
+      stages:[]
+    },
+    {
+      name:"Porygon",
+      img:"",
+      types:["Normal"],
+      description:
+      "Tecnologia de ponta foi usada para criar Porygon. Foi o primeiro Pokémon artificial a ser criado por meio de programação de computador.",
+      stages:[]
     }
   ];
-  
-//Bulbasaur
+  //bulbasaur
 pokemons[0].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[1].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[2].stages.push(pokemons[0], pokemons[1], pokemons[2]);
-//Charmander
+//charmander
 pokemons[3].stages.push(pokemons[3], pokemons[4], pokemons[5]);
 pokemons[4].stages.push(pokemons[3], pokemons[4], pokemons[5]);
 pokemons[5].stages.push(pokemons[3], pokemons[4], pokemons[5]);
-//Squirtle
+//squirtle
 pokemons[6].stages.push(pokemons[6], pokemons[7], pokemons[8]);
 pokemons[7].stages.push(pokemons[6], pokemons[7], pokemons[8]);
 pokemons[8].stages.push(pokemons[6], pokemons[7], pokemons[8]);
-//Caterpie
+//caterpie
 pokemons[9].stages.push(pokemons[9], pokemons[10], pokemons[11]);
 pokemons[10].stages.push(pokemons[9], pokemons[10], pokemons[11]);
 pokemons[11].stages.push(pokemons[9], pokemons[10], pokemons[11]);
-//Weedle
+//weedle
 pokemons[12].stages.push(pokemons[12], pokemons[13], pokemons[14]);
 pokemons[13].stages.push(pokemons[12], pokemons[13], pokemons[14]);
 pokemons[14].stages.push(pokemons[12], pokemons[13], pokemons[14]);
-//Pidgey
+//pidgey
 pokemons[15].stages.push(pokemons[15], pokemons[16], pokemons[17]);
 pokemons[16].stages.push(pokemons[15], pokemons[16], pokemons[17]);
 pokemons[17].stages.push(pokemons[15], pokemons[16], pokemons[17]);
-//Rattata
+//rattata
 pokemons[18].stages.push(pokemons[18], pokemons[19]);
 pokemons[19].stages.push(pokemons[18], pokemons[19]);
-//Spearow
+//spearow
 pokemons[20].stages.push(pokemons[20], pokemons[21]);
 pokemons[21].stages.push(pokemons[20], pokemons[21]);
-//Ekans
+//ekans
 pokemons[22].stages.push(pokemons[22], pokemons[23]);
 pokemons[23].stages.push(pokemons[22], pokemons[23]);
-//Pikachu
+//pikachu
 pokemons[24].stages.push(pokemons[24], pokemons[25]);
 pokemons[25].stages.push(pokemons[24], pokemons[25]);
-//Sandshrew
+//sandshrew
 pokemons[26].stages.push(pokemons[26], pokemons[27]);
 pokemons[27].stages.push(pokemons[26], pokemons[27]);
-//Nidoran f
+//nidoran f
 pokemons[28].stages.push(pokemons[28], pokemons[29], pokemons[30]);
 pokemons[29].stages.push(pokemons[28], pokemons[29], pokemons[30]);
 pokemons[30].stages.push(pokemons[28], pokemons[29], pokemons[30]);
-//Nidoran m
+//nidoran m
 pokemons[31].stages.push(pokemons[31], pokemons[32], pokemons[33]);
 pokemons[32].stages.push(pokemons[31], pokemons[32], pokemons[33]);
 pokemons[33].stages.push(pokemons[31], pokemons[32], pokemons[33]);
-//Clefairy
+//clefairy
 pokemons[34].stages.push(pokemons[34], pokemons[35]);
 pokemons[35].stages.push(pokemons[34], pokemons[35]);
-//Vulpix
+//vulpix
 pokemons[36].stages.push(pokemons[36], pokemons[37]);
 pokemons[37].stages.push(pokemons[36], pokemons[37]);
-//Jigglypuff
+//jigglypuff
 pokemons[38].stages.push(pokemons[38], pokemons[39]);
 pokemons[39].stages.push(pokemons[38], pokemons[39]);
-//Zubat
+//zubat
 pokemons[40].stages.push(pokemons[40], pokemons[41]);
 pokemons[41].stages.push(pokemons[40], pokemons[41]);
-//Oddish
+//oddish
 pokemons[42].stages.push(pokemons[42], pokemons[43], pokemons[44]);
 pokemons[43].stages.push(pokemons[42], pokemons[43], pokemons[44]);
 pokemons[44].stages.push(pokemons[42], pokemons[43], pokemons[44]);
-//Paras
+//paras
 pokemons[45].stages.push(pokemons[45], pokemons[46]);
 pokemons[46].stages.push(pokemons[45], pokemons[46]);
-//Venonat
+//venonat
 pokemons[47].stages.push(pokemons[47], pokemons[48]);
 pokemons[48].stages.push(pokemons[47], pokemons[48]);
-//Digglet
+//digglet
 pokemons[49].stages.push(pokemons[49], pokemons[50]);
 pokemons[50].stages.push(pokemons[49], pokemons[50]);
 //Meowth
@@ -1158,3 +1277,27 @@ pokemons[120].stages.push(pokemons[120], pokemons[121]);
 pokemons[121].stages.push(pokemons[120], pokemons[121]);
 //Mr. Mime
 pokemons[122].stages.push(pokemons[122]);
+//Scyther
+pokemons[123].stages.push(pokemons[123]),
+//Jynx
+pokemons[124].stages.push(pokemons[124]);
+//Magmar
+pokemons[125].stages.push(pokemons[125]);
+//Pinsir
+pokemons[126].stages.push(pokemons[126]);
+//Tauros
+pokemons[127].stages.push(pokemons[127]);
+//Magikarp
+pokemons[128].stages.push(pokemons[128], pokemons[129]);
+pokemons[129].stages.push(pokemons[128], pokemons[129]);
+//Lapras
+pokemons[130].stages.push(pokemons[130]);
+//Ditto
+pokemons[131].stages.push(pokemons[131]);
+//Eevee
+pokemons[132].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
+pokemons[133].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
+pokemons[134].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
+pokemons[135].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
+//Porygon
+pokemons[136].stages.push(pokemons[136]);
