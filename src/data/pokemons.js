@@ -528,82 +528,633 @@ var pokemons = [
       stages:[]
     },
     {
-      name:"Machoke"
+      name:"Machoke",
+      img:"",
+      types:["Lutador"],
+      description:
+      "Seu corpo musculoso é tão poderoso que deve usar um cinto de economia de energia para poder regular seus movimentos.",
+      stages:[]
+    },
+    {
+      name:"Machamp",
+      img:"",
+      types:["Lutador"],
+      description:
+      "Ele balança rapidamente seus quatro braços para balançar seus oponentes com socos e golpes incessantes de todos os ângulos.",
+      stages:[]
+    },
+    {
+      name:"Bellsprout",
+      img:"",
+      types:["Grama", "Veneno"],
+      description:
+      "Prefere lugares quentes e úmidos. Ele captura pequenos insetos com suas vinhas e os devora.",
+      stages:[]
+    },
+    {
+      name:"Weepinbell",
+      img:"",
+      types:["Grama", "Veneno"],
+      description:
+      "Quando está com fome, engole tudo o que se mexe. Sua presa infeliz é dissolvida por ácidos fortes.",
+      stages:[]
+    },
+    {
+      name:"Victreebel",
+      img:"",
+      types:["Grama", "Veneno"],
+      description:
+      "Atrai a presa com o doce aroma do mel. Engolida inteira, a presa é dissolvida em um dia, com ossos e tudo.",
+      stages:[]
+    },
+    {
+      name:"Tentacool",
+      img:"",
+      types:["Água", "Veneno"],
+      description:
+      "Tentacool não é um nadador particularmente forte. Ele flutua pela superfície de mares rasos enquanto procura por presas.",
+      stages:[]
+    },
+    {
+      name:"Tentacruel",
+      img:"",
+      types:["Grama", "Veneno"],
+      description:
+      "Quando as esferas vermelhas na cabeça de Tentacruel brilharem intensamente, cuidado. O Pokémon está prestes a disparar uma explosão de ondas ultrassônicas.",
+      stages:[]
+    },
+    {
+      name:"Geodude",
+      img:"",
+      types:["Pedra", "Terrestre"],
+      description:
+      "Comumente encontrado perto de trilhas de montanha e similares. Se você pisar em um por acidente, ele fica com raiva.",
+      stages:[]
+    },
+    {
+      name:"Graveller",
+      img:"",
+      types:["Pedra", "Terrestre"],
+      description:
+      "Frequentemente visto rolando por trilhas nas montanhas. Obstáculos são apenas coisas para rolar, não evitar.",
+      stages:[]
+    },
+    {
+      name:"Golem",
+      img:"",
+      types:["Pedra", "Terrestre"],
+      description:
+      "Depois de trocar de pele, seu corpo fica macio e esbranquiçado. Sua pele endurece quando exposta ao ar.",
+      stages:[]
+    },
+    {
+      name:"Ponyta",
+      img:"",
+      types:["Fogo"],
+      description:
+      "Não pode funcionar corretamente quando é recém-nascido. À medida que corre com outros de sua espécie, suas pernas ficam mais fortes.",
+      stages:[]
+    },
+    {
+      name:"Rapidash",
+      img:"",
+      types:["Fogo"],
+      description:
+      "Este Pokémon pode ser visto galopando pelos campos a velocidades de até 150 mph, sua juba de fogo tremulando ao vento.",
+      stages:[]
+    },
+    {
+      name:"Slowpoke",
+      img:"",
+      types:["Água", "Psíquico"],
+      description:
+      "É incrivelmente lento e estúpido. Leva cinco segundos para sentir dor quando está sob ataque.",
+      stages:[]
+    },
+    {
+      name:"Slowbro",
+      img:"",
+      types:["Água", "Psíquico"],
+      description:
+      "Quando um Slowpoke foi caçar no mar, seu rabo foi mordido por um Shellder. Isso o fez evoluir para Slowbro.",
+      stages:[]
+    },
+    {
+      name:"Magnemite",
+      img:"",
+      types:["Elétrico", "Metal"],
+      description:
+      "As ondas eletromagnéticas emitidas pelas unidades nas laterais de sua cabeça expulsam a antigravidade, o que permite que ela flutue.",
+      stages:[]
+    },
+    {
+      name:"Magneton",
+      img:"",
+      types:["Elétrico", "Metal"],
+      description:
+      "Três Magnemite estão ligados por uma forte força magnética. Dores de ouvido ocorrerão se você chegar muito perto.",
+      stages:[]
+    },
+    {
+      name:"Farfetch'd",
+      img:"",
+      types:["Normal", "Voador"],
+      description:
+      "O talo que este Pokémon carrega em suas asas serve como uma espada para cortar os oponentes. Em uma situação terrível, o talo também pode servir de alimento.",
+      stages:[]
+    },
+    {
+      name:"Doduo",
+      img:"",
+      types:["Normal", "Voador"],
+      description:
+      "Suas asas curtas dificultam o vôo. Em vez disso, este Pokémon corre em alta velocidade com pernas desenvolvidas.",
+      stages:[]
+    },
+    {
+      name:"Dodrio",
+      img:"",
+      types:["Normal", "Voador"],
+      description:
+      "Uma das duas cabeças de Doduo se divide para formar uma espécie única. Ele corre perto de 40 mph em pradarias.",
+      stages:[]
+    },
+    {
+      name:"Seel",
+      img:"",
+      types:["Água"],
+      description:
+      "Adora condições de frio congelante. Gosta de nadar em um clima gelado de cerca de 14 graus Fahrenheit.",
+      stages:[]
+    },
+    {
+      name:"Dewgong",
+      img:"",
+      types:["Água", "Gelo"],
+      description:
+      "Todo o seu corpo é branco como a neve. Incólume até mesmo pelo frio intenso, ele nada poderosamente em águas geladas.",
+      stages:[]
+    },
+    {
+      name:"Grimer",
+      img:"",
+      types:["Veneno"],
+      description:
+      "Nascidos do lodo, esses Pokémon agora se reúnem em locais poluídos e aumentam as bactérias em seus corpos.",
+      stages:[]
+    },
+    {
+      name:"Muk",
+      img:"",
+      types:["Veneno"],
+      description:
+      "Está densamente coberto com uma lama imunda e vil. É tão tóxico que até suas pegadas contêm veneno.",
+      stages:[]
+    },
+    {
+      name:"Shellder",
+      img:"",
+      types:["Água"],
+      description:
+      "É envolto em uma casca que é mais dura que o diamante. Por dentro, no entanto, é surpreendentemente macio.",
+      stages:[]
+    },
+    {
+      name:"Cloyster",
+      img:"",
+      types:["Água", "Gelo"],
+      description:
+      "Cloyster que vivem em mares com fortes correntes de maré crescem grandes e pontiagudos em suas conchas.",
+      stages:[]
+    },
+    {
+      name:"Gastly",
+      img:"",
+      types:["Fantasma", "Veneno"],
+      description:
+      "Ele envolve seu oponente em seu corpo gasoso, enfraquecendo lentamente sua presa ao envenená-la através da pele.",
+      stages:[]
+    },
+    {
+      name:"Haunter",
+      img:"",
+      types:["Fantasma", "Veneno"],
+      description:
+      "Ele gosta de se esconder no escuro e bater nos ombros com uma mão gasosa. Seu toque causa estremecimento sem fim.",
+      stages:[]
+    },
+    {
+      name:"Gengar",
+      img:"",
+      types:["Fantasma", "Veneno"],
+      description:
+      "Para roubar a vida de seu alvo, ele se esconde na sombra da presa e silenciosamente espera por uma oportunidade.",
+      stages:[]
+    },
+    {
+      name:"Onix",
+      img:"",
+      types:["Pedra", "Terrestre"],
+      description:
+      "À medida que escava o solo, absorve muitos objetos duros. É isso que torna seu corpo tão sólido.",
+      stages:[]
+    },
+    {
+      name:"Drowzee",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "Ele se lembra de cada sonho que come. Raramente come os sonhos dos adultos porque os das crianças são muito mais saborosos.",
+      stages:[]
+    },
+    {
+      name:"Hypno",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "Quando ele trava os olhos com um inimigo, ele usa uma mistura de movimentos psi, como Hipnose e Confusão.",
+      stages:[]
+    },
+    {
+      name:"Krabby",
+      img:"",
+      types:["Água"],
+      description:
+      "Pode ser encontrado perto do mar. As pinças grandes voltam a crescer se forem arrancadas de seus encaixes.",
+      stages:[]
+    },
+    {
+      name:"Kingler",
+      img:"",
+      types:["Água"],
+      description:
+      "Sua pinça grande e dura tem força de 10.000 cavalos de potência. No entanto, sendo tão grande, é difícil de mover.",
+      stages:[]
+    },
+    {
+      name:"Voltorb",
+      img:"",
+      types:["Elétrico"],
+      description:
+      "Ele rola para se mover. Se o solo for irregular, um solavanco repentino ao bater em uma saliência pode fazer com que ele exploda.",
+      stages:[]
+    },
+    {
+      name:"Electrode",
+      img:"",
+      types:["Elétrico"],
+      description:
+      "Quanto mais energia ele carrega, mais rápido ele fica. Mas isso também torna mais provável que exploda.",
+      stages:[]
+    },
+    {
+      name:"Exeggcute",
+      img:"",
+      types:["Grama", "Psíquico"],
+      description:
+      "Embora possa parecer apenas um monte de ovos, é um Pokémon adequado. Exeggcute se comunica com outros de sua espécie via telepatia, aparentemente.",
+      stages:[]
+    },
+    {
+      name:"Exeggutor",
+      img:"",
+      types:["Grama", "Psíquico"],
+      description:
+      "Cada uma das três cabeças de Exeggutor está pensando em pensamentos diferentes. Os três não parecem estar muito interessados um no outro.",
+      stages:[]
+    },
+    {
+      name:"Cubone",
+      img:"",
+      types:["Terrestre"],
+      description:
+      "Quando a memória de sua falecida mãe o leva às lágrimas, seus gritos ecoam tristemente dentro do crânio que ele usa em sua cabeça.",
+      stages:[]
+    },
+    {
+      name:"Marowak",
+      img:"",
+      types:["Terreste"],
+      description:
+      "Este Pokémon superou sua tristeza para desenvolver um novo corpo robusto. Marowak enfrenta seus oponentes bravamente, usando um osso como arma.",
+      stages:[]
+    },
+    {
+      name:"Hitmonlee",
+      img:"",
+      types:["Lutador"],
+      description:
+      "Este incrível Pokémon tem um incrível senso de equilíbrio. Pode chutar sucessivamente de qualquer posição.",
+      stages:[]
+    },
+    {
+      name:"Hitmonchan",
+      img:"",
+      types:["Lutador"],
+      description:
+      "Seus socos cortam o ar. Eles são lançados a uma velocidade tão alta que até mesmo um leve arranhão pode causar uma queimadura.",
+      stages:[]
+    },
+    {
+      name:"Lickitung",
+      img:"",
+      types:["Normal"],
+      description:
+      "Se a saliva pegajosa deste Pokémon cair em você e você não a limpar, uma coceira intensa se instalará. A coceira também não vai embora.",
+      stages:[]
+    },
+    {
+      name:"Koffing",
+      img:"",
+      types:["Veneno"],
+      description:
+      "Seu corpo está cheio de gás venenoso. Ele flutua em depósitos de lixo, procurando a fumaça do lixo cru e apodrecido.",
+      stages:[]
+    },
+    {
+      name:"Weezing",
+      img:"",
+      types:["Veneno"],
+      description:
+      "Ele mistura gases entre seus dois corpos. Diz-se que esses Pokémon foram vistos em toda a região de Galar no passado.",
+      stages:[]
+    },
+    {
+      name:"Rhyhorn",
+      img:"",
+      types:["Pedra", "Terrestre"],
+      description:
+      "Forte, mas não muito brilhante, este Pokémon pode destruir até mesmo um arranha-céu com seus equipamentos de carregamento.",
+      stages:[]
+    },
+    {
+      name:"Rhydon",
+      img:"",
+      types:["Pedra", "Terrestre"],
+      description:
+      "Ele começa a andar sobre as patas traseiras após a evolução. Ele pode perfurar pedras com seu chifre.",
+      stages:[]
+    },
+    {
+      name:"Chansey",
+      img:"",
+      types:["Normal"],
+      description:
+      "Este gentil Pokémon põe ovos altamente nutritivos e os compartilha com Pokémon ou pessoas feridas.",
+      stages:[]
+    },
+    {
+      name:"Tangela",
+      img:"",
+      types:["Grama"],
+      description:
+      "Escondido sob um emaranhado de vinhas que cresce sem parar, mesmo que as vinhas sejam arrancadas, a verdadeira aparência deste Pokémon permanece um mistério.",
+      stages:[]
+    },
+    {
+      name:"Kangaskhan",
+      img:"",
+      types:["Normal"],
+      description:
+      "Embora esteja carregando seu bebê em uma bolsa em sua barriga, Kangaskhan é rápido em seus pés. Ele intimida seus oponentes com golpes rápidos.",
+      stages:[]
+    },
+    {
+      name:"Horsea",
+      img:"",
+      types:["Água"],
+      description:
+      "Horsea faz sua casa em oceanos com correntes suaves. Se este Pokémon estiver sob ataque, ele cospe tinta preta e foge.",
+      stageS:[]
+    },
+    {
+      name:"Seadra",
+      img:"",
+      types:["Água"],
+      description:
+      "São os machos que criam os filhotes. Enquanto Seadra cria filhotes, os espinhos em suas costas secretam um veneno mais espesso e forte.",
+      stages:[]
+    },
+    {
+      name:"Goldeen",
+      img:"",
+      types:["Água"],
+      description:
+      "Suas barbatanas dorsal, peitoral e caudal ondulam elegantemente na água. É por isso que é conhecido como o Dançarino da Água.",
+      stages:[]
+    },
+    {
+      name:"Seaking",
+      img:"",
+      types:["Água"],
+      description:
+      "No outono, seu corpo fica mais gorduroso ao se preparar para pedir um companheiro em casamento. Ele assume lindas cores.",
+      stages:[]
+    },
+    {
+      name:"Staryu",
+      img:"",
+      types:["Água"],
+      description:
+      "Se você visitar uma praia no final do verão, poderá ver grupos de Staryu se iluminando em um ritmo constante.",
+      stages:[]
+    },
+    {
+      name:"Starmie",
+      img:"",
+      types:["Água", "Psíquico"],
+      description:
+      "Este Pokémon possui um órgão conhecido como núcleo. O órgão brilha em sete cores quando Starmie está liberando seus potentes poderes psíquicos.",
+      stages:[]
+    },
+    {
+      name:"Mr. Mime",
+      img:"",
+      types:["Psíquico"],
+      description:
+      "A largura de suas mãos pode não ser coincidência - muitos cientistas acreditam que suas palmas foram aumentadas especificamente para pantomima.",
+      stages:[]
     }
   ];
   
-  for (var i = 0; i < pokemons.length; i++) {
-    pokemons[i].stages = [];
-  }
-  //bulbasaur
-  pokemons[0].stages.push(pokemons[0], pokemons[1], pokemons[2]);
-  pokemons[1].stages.push(pokemons[0], pokemons[1], pokemons[2]);
-  pokemons[2].stages.push(pokemons[0], pokemons[1], pokemons[2]);
-//charmander
-  pokemons[3].stages.push(pokemons[3], pokemons[4], pokemons[5]);
-  pokemons[4].stages.push(pokemons[3], pokemons[4], pokemons[5]);
-  pokemons[5].stages.push(pokemons[3], pokemons[4], pokemons[5]);
-//squirtle
-  pokemons[6].stages.push(pokemons[6], pokemons[7], pokemons[8]);
-  pokemons[7].stages.push(pokemons[6], pokemons[7], pokemons[8]);
-  pokemons[8].stages.push(pokemons[6], pokemons[7], pokemons[8]);
-//caterpie
-  pokemons[9].stages.push(pokemons[9], pokemons[10], pokemons[11]);
-  pokemons[10].stages.push(pokemons[9], pokemons[10], pokemons[11]);
-  pokemons[11].stages.push(pokemons[9], pokemons[10], pokemons[11]);
-  //weedle
-  pokemons[12].stages.push(pokemons[12],pokemons[13],pokemons[14]);
-  pokemons[13].stages.push(pokemons[12],pokemons[13],pokemons[14]);
-  pokemons[14].stages.push(pokemons[12],pokemons[13],pokemons[14]);
-  //pidgey
-  pokemons[15].stages.push(pokemons[15],pokemons[16],pokemons[17]);
-  pokemons[16].stages.push(pokemons[15],pokemons[16],pokemons[17]);
-  pokemons[17].stages.push(pokemons[15],pokemons[16],pokemons[17]);
-  //rattata
-  pokemons[18].stages.push(pokemons[18],pokemons[19]);
-  pokemons[19].stages.push(pokemons[18],pokemons[19]);
-  //spearow
-  pokemons[20].stages.push(pokemons[20],pokemons[21]);
-  pokemons[21].stages.push(pokemons[20],pokemons[21]);
-  //ekans
-  pokemons[22].stages.push(pokemons[22],pokemons[23]);
-  pokemons[23].stages.push(pokemons[22],pokemons[23]);
-  //pikachu
-  pokemons[24].stages.push(pokemons[24],pokemons[25]);
-  pokemons[25].stages.push(pokemons[24],pokemons[25]);
-  //sandshrew
-  pokemons[26].stages.push(pokemons[26],pokemons[27]);
-  pokemons[27].stages.push(pokemons[26],pokemons[27]);
-  //nidoran f
-  pokemons[28].stages.push(pokemons[28],pokemons[29],pokemons[30]);
-  pokemons[29].stages.push(pokemons[28],pokemons[29],pokemons[30]);
-  pokemons[30].stages.push(pokemons[28],pokemons[29],pokemons[30]);
-  //nidoran m
-  pokemons[31].stages.push(pokemons[31],pokemons[32],pokemons[33]);
-  pokemons[32].stages.push(pokemons[31],pokemons[32],pokemons[33]);
-  pokemons[33].stages.push(pokemons[31],pokemons[32],pokemons[33]);
-  //clefairy
-  pokemons[34].stages.push(pokemons[34],pokemons[35]);
-  pokemons[35].stages.push(pokemons[34],pokemons[35]);
-  //vulpix
-  pokemons[36].stages.push(pokemons[36],pokemons[37]);
-  pokemons[37].stages.push(pokemons[36],pokemons[37]);
-  //jigglypuff
-  pokemons[38].stages.push(pokemons[38],pokemons[39]);
-  pokemons[39].stages.push(pokemons[38],pokemons[39]);
-  //zubat
-  pokemons[40].stages.push(pokemons[40],pokemons[41]);
-  pokemons[41].stages.push(pokemons[40],pokemons[41]);
-  //oddish
-  pokemons[42].stages.push(pokemons[42],pokemons[43],pokemons[44]);
-  pokemons[43].stages.push(pokemons[42],pokemons[43],pokemons[44]);
-  pokemons[44].stages.push(pokemons[42],pokemons[43],pokemons[44]);
-  //paras
-  pokemons[45].stages.push(pokemons[45],pokemons[46]);
-  pokemons[46].stages.push(pokemons[45],pokemons[46]);
-  //venonat
-  pokemons[47].stages.push(pokemons[47],pokemons[48]);
-  pokemons[48].stages.push(pokemons[47],pokemons[48]);
-  //digglet
-  pokemons[49].stages.push(pokemons[49],pokemons[50]);
-  pokemons[50].stages.push(pokemons[49],pokemons[50]);
+//Bulbasaur
+pokemons[0].stages.push(pokemons[0], pokemons[1], pokemons[2]);
+pokemons[1].stages.push(pokemons[0], pokemons[1], pokemons[2]);
+pokemons[2].stages.push(pokemons[0], pokemons[1], pokemons[2]);
+//Charmander
+pokemons[3].stages.push(pokemons[3], pokemons[4], pokemons[5]);
+pokemons[4].stages.push(pokemons[3], pokemons[4], pokemons[5]);
+pokemons[5].stages.push(pokemons[3], pokemons[4], pokemons[5]);
+//Squirtle
+pokemons[6].stages.push(pokemons[6], pokemons[7], pokemons[8]);
+pokemons[7].stages.push(pokemons[6], pokemons[7], pokemons[8]);
+pokemons[8].stages.push(pokemons[6], pokemons[7], pokemons[8]);
+//Caterpie
+pokemons[9].stages.push(pokemons[9], pokemons[10], pokemons[11]);
+pokemons[10].stages.push(pokemons[9], pokemons[10], pokemons[11]);
+pokemons[11].stages.push(pokemons[9], pokemons[10], pokemons[11]);
+//Weedle
+pokemons[12].stages.push(pokemons[12], pokemons[13], pokemons[14]);
+pokemons[13].stages.push(pokemons[12], pokemons[13], pokemons[14]);
+pokemons[14].stages.push(pokemons[12], pokemons[13], pokemons[14]);
+//Pidgey
+pokemons[15].stages.push(pokemons[15], pokemons[16], pokemons[17]);
+pokemons[16].stages.push(pokemons[15], pokemons[16], pokemons[17]);
+pokemons[17].stages.push(pokemons[15], pokemons[16], pokemons[17]);
+//Rattata
+pokemons[18].stages.push(pokemons[18], pokemons[19]);
+pokemons[19].stages.push(pokemons[18], pokemons[19]);
+//Spearow
+pokemons[20].stages.push(pokemons[20], pokemons[21]);
+pokemons[21].stages.push(pokemons[20], pokemons[21]);
+//Ekans
+pokemons[22].stages.push(pokemons[22], pokemons[23]);
+pokemons[23].stages.push(pokemons[22], pokemons[23]);
+//Pikachu
+pokemons[24].stages.push(pokemons[24], pokemons[25]);
+pokemons[25].stages.push(pokemons[24], pokemons[25]);
+//Sandshrew
+pokemons[26].stages.push(pokemons[26], pokemons[27]);
+pokemons[27].stages.push(pokemons[26], pokemons[27]);
+//Nidoran f
+pokemons[28].stages.push(pokemons[28], pokemons[29], pokemons[30]);
+pokemons[29].stages.push(pokemons[28], pokemons[29], pokemons[30]);
+pokemons[30].stages.push(pokemons[28], pokemons[29], pokemons[30]);
+//Nidoran m
+pokemons[31].stages.push(pokemons[31], pokemons[32], pokemons[33]);
+pokemons[32].stages.push(pokemons[31], pokemons[32], pokemons[33]);
+pokemons[33].stages.push(pokemons[31], pokemons[32], pokemons[33]);
+//Clefairy
+pokemons[34].stages.push(pokemons[34], pokemons[35]);
+pokemons[35].stages.push(pokemons[34], pokemons[35]);
+//Vulpix
+pokemons[36].stages.push(pokemons[36], pokemons[37]);
+pokemons[37].stages.push(pokemons[36], pokemons[37]);
+//Jigglypuff
+pokemons[38].stages.push(pokemons[38], pokemons[39]);
+pokemons[39].stages.push(pokemons[38], pokemons[39]);
+//Zubat
+pokemons[40].stages.push(pokemons[40], pokemons[41]);
+pokemons[41].stages.push(pokemons[40], pokemons[41]);
+//Oddish
+pokemons[42].stages.push(pokemons[42], pokemons[43], pokemons[44]);
+pokemons[43].stages.push(pokemons[42], pokemons[43], pokemons[44]);
+pokemons[44].stages.push(pokemons[42], pokemons[43], pokemons[44]);
+//Paras
+pokemons[45].stages.push(pokemons[45], pokemons[46]);
+pokemons[46].stages.push(pokemons[45], pokemons[46]);
+//Venonat
+pokemons[47].stages.push(pokemons[47], pokemons[48]);
+pokemons[48].stages.push(pokemons[47], pokemons[48]);
+//Digglet
+pokemons[49].stages.push(pokemons[49], pokemons[50]);
+pokemons[50].stages.push(pokemons[49], pokemons[50]);
+//Meowth
+pokemons[51].stages.push(pokemons[51], pokemons[52]);
+pokemons[52].stages.push(pokemons[51], pokemons[52]);
+//Psyduck
+pokemons[53].stages.push(pokemons[53], pokemons[54]);
+pokemons[54].stages.push(pokemons[53], pokemons[54]);
+//Mankey
+pokemons[55].stages.push(pokemons[55], pokemons[56]);
+pokemons[56].stages.push(pokemons[55], pokemons[56]);
+//Growlithe
+pokemons[57].stages.push(pokemons[57], pokemons[58]);
+pokemons[58].stages.push(pokemons[57], pokemons[58]);
+//Poliwag
+pokemons[59].stages.push(pokemons[59], pokemons[60], pokemons[61]);
+pokemons[60].stages.push(pokemons[59], pokemons[60], pokemons[61]);
+pokemons[61].stages.push(pokemons[59], pokemons[60], pokemons[61]);
+//Abra
+pokemons[62].stages.push(pokemons[62], pokemons[63], pokemons[64]);
+pokemons[63].stages.push(pokemons[62], pokemons[63], pokemons[64]);
+pokemons[64].stages.push(pokemons[62], pokemons[63], pokemons[64]);
+//Machop
+pokemons[65].stages.push(pokemons[65], pokemons[66], pokemons[67]);
+pokemons[66].stages.push(pokemons[65], pokemons[66], pokemons[67]);
+pokemons[67].stages.push(pokemons[65], pokemons[66], pokemons[67]);
+//Bellsprout
+pokemons[68].stages.push(pokemons[68], pokemons[69], pokemons[70]);
+pokemons[69].stages.push(pokemons[68], pokemons[69], pokemons[70]);
+pokemons[70].stages.push(pokemons[68], pokemons[69], pokemons[70]);
+//Tentacool
+pokemons[71].stages.push(pokemons[71], pokemons[72]);
+pokemons[72].stages.push(pokemons[71], pokemons[72]);
+//Geodude
+pokemons[73].stages.push(pokemons[73], pokemons[74], pokemons[75]);
+pokemons[74].stages.push(pokemons[73], pokemons[74], pokemons[75]);
+pokemons[75].stages.push(pokemons[73], pokemons[74], pokemons[75]);
+//Ponyta
+pokemons[76].stages.push(pokemons[76], pokemons[77]);
+pokemons[77].stages.push(pokemons[76], pokemons[77]);
+//Slowpoke
+pokemons[78].stages.push(pokemons[78], pokemons[79], pokemons[80]);
+pokemons[79].stages.push(pokemons[78], pokemons[79], pokemons[80]);
+pokemons[80].stages.push(pokemons[78], pokemons[79], pokemons[80]);
+//Magnemite
+pokemons[81].stages.push(pokemons[81], pokemons[82]);
+pokemons[82].stages.push(pokemons[81], pokemons[82]);
+//Farfetch'd
+pokemons[83].stages.push(pokemons[83]);
+//Doduo
+pokemons[84].stages.push(pokemons[84], pokemons[85]);
+pokemons[85].stages.push(pokemons[84], pokemons[85]);
+//Seel
+pokemons[86].stages.push(pokemons[86], pokemons[87]);
+pokemons[87].stages.push(pokemons[86], pokemons[87]);
+//Grimer
+pokemons[88].stages.push(pokemons[88], pokemons[89]);
+pokemons[89].stages.push(pokemons[88], pokemons[89]);
+//Shellder
+pokemons[90].stages.push(pokemons[90], pokemons[91]);
+pokemons[91].stages.push(pokemons[90], pokemons[91]);
+//Gastly
+pokemons[92].stages.push(pokemons[92], pokemons[93], pokemons[94]);
+pokemons[93].stages.push(pokemons[92], pokemons[93], pokemons[94]);
+pokemons[94].stages.push(pokemons[92], pokemons[93], pokemons[94]);
+//Onix
+pokemons[95].stages.push(pokemons[95]);
+//Drowzee
+pokemons[96].stages.push(pokemons[96], pokemons[97]);
+pokemons[97].stages.push(pokemons[96], pokemons[97]);
+//Krabby
+pokemons[98].stages.push(pokemons[98], pokemons[99]);
+pokemons[99].stages.push(pokemons[98], pokemons[99]);
+//Voltorb
+pokemons[100].stages.push(pokemons[100], pokemons[101]);
+pokemons[101].stages.push(pokemons[100], pokemons[101]);
+//Exeggcute
+pokemons[102].stages.push(pokemons[102], pokemons[103]);
+pokemons[103].stages.push(pokemons[102], pokemons[103]);
+//Cubone
+pokemons[104].stages.push(pokemons[104], pokemons[105]);
+pokemons[105].stages.push(pokemons[104], pokemons[105]);
+//Hitmonlee
+pokemons[106].stages.push(pokemons[106]);
+//Hitmonchan
+pokemons[107].stages.push(pokemons[107]);
+//Lickitung
+pokemons[108].stages.push(pokemons[108]);
+//Koffing
+pokemons[109].stages.push(pokemons[109], pokemons[110]);
+pokemons[110].stages.push(pokemons[109], pokemons[110]);
+//Rhyhorn
+pokemons[111].stages.push(pokemons[111], pokemons[112]);
+pokemons[112].stages.push(pokemons[111], pokemons[112]);
+//Chansey
+pokemons[113].stages.push(pokemons[113]);
+//Tangela
+pokemons[114].stages.push(pokemons[114]);
+//Khanghaskhan
+pokemons[115].stages.push(pokemons[115]);
+//Horsea
+pokemons[116].stages.push(pokemons[116], pokemons[117]);
+pokemons[117].stages.push(pokemons[116], pokemons[117]);
+//Golden
+pokemons[118].stages.push(pokemons[118], pokemons[119]);
+pokemons[119].stages.push(pokemons[118], pokemons[119]);
+//Staryu
+pokemons[120].stages.push(pokemons[120], pokemons[121]);
+pokemons[121].stages.push(pokemons[120], pokemons[121]);
+//Mr. Mime
+pokemons[122].stages.push(pokemons[122]);
