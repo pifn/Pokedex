@@ -1096,7 +1096,7 @@ var pokemons = [
       stages:[]
     }
   ];
-//bulbasaur
+  //bulbasaur
 pokemons[0].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[1].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[2].stages.push(pokemons[0], pokemons[1], pokemons[2]);
@@ -1302,3 +1302,4 @@ pokemons[134].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[
 pokemons[135].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
 //Porygon
 pokemons[136].stages.push(pokemons[136]);
+
