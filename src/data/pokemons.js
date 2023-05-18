@@ -1207,97 +1207,96 @@ pokemons[75].stages.push(pokemons[73], pokemons[74], pokemons[75]);
 pokemons[76].stages.push(pokemons[76], pokemons[77]);
 pokemons[77].stages.push(pokemons[76], pokemons[77]);
 //Slowpoke
-pokemons[78].stages.push(pokemons[78], pokemons[79], pokemons[80]);
-pokemons[79].stages.push(pokemons[78], pokemons[79], pokemons[80]);
-pokemons[80].stages.push(pokemons[78], pokemons[79], pokemons[80]);
+pokemons[78].stages.push(pokemons[78], pokemons[79]);
+pokemons[79].stages.push(pokemons[78], pokemons[79]);
 //Magnemite
-pokemons[81].stages.push(pokemons[81], pokemons[82]);
-pokemons[82].stages.push(pokemons[81], pokemons[82]);
+pokemons[80].stages.push(pokemons[80], pokemons[81]);
+pokemons[81].stages.push(pokemons[80], pokemons[81]);
 //Farfetch'd
-pokemons[83].stages.push(pokemons[83]);
+pokemons[82].stages.push(pokemons[82]);
 //Doduo
-pokemons[84].stages.push(pokemons[84], pokemons[85]);
-pokemons[85].stages.push(pokemons[84], pokemons[85]);
+pokemons[83].stages.push(pokemons[83], pokemons[84]);
+pokemons[84].stages.push(pokemons[83], pokemons[84]);
 //Seel
-pokemons[86].stages.push(pokemons[86], pokemons[87]);
-pokemons[87].stages.push(pokemons[86], pokemons[87]);
+pokemons[85].stages.push(pokemons[85], pokemons[86]);
+pokemons[86].stages.push(pokemons[85], pokemons[86]);
 //Grimer
-pokemons[88].stages.push(pokemons[88], pokemons[89]);
-pokemons[89].stages.push(pokemons[88], pokemons[89]);
+pokemons[87].stages.push(pokemons[87], pokemons[88]);
+pokemons[88].stages.push(pokemons[87], pokemons[88]);
 //Shellder
-pokemons[90].stages.push(pokemons[90], pokemons[91]);
-pokemons[91].stages.push(pokemons[90], pokemons[91]);
+pokemons[89].stages.push(pokemons[89], pokemons[90]);
+pokemons[90].stages.push(pokemons[89], pokemons[90]);
 //Gastly
-pokemons[92].stages.push(pokemons[92], pokemons[93], pokemons[94]);
-pokemons[93].stages.push(pokemons[92], pokemons[93], pokemons[94]);
-pokemons[94].stages.push(pokemons[92], pokemons[93], pokemons[94]);
+pokemons[91].stages.push(pokemons[91], pokemons[92], pokemons[93]);
+pokemons[92].stages.push(pokemons[91], pokemons[92], pokemons[93]);
+pokemons[93].stages.push(pokemons[91], pokemons[92], pokemons[93]);
 //Onix
-pokemons[95].stages.push(pokemons[95]);
+pokemons[94].stages.push(pokemons[94]);
 //Drowzee
-pokemons[96].stages.push(pokemons[96], pokemons[97]);
-pokemons[97].stages.push(pokemons[96], pokemons[97]);
+pokemons[95].stages.push(pokemons[95], pokemons[96]);
+pokemons[96].stages.push(pokemons[95], pokemons[96]);
 //Krabby
-pokemons[98].stages.push(pokemons[98], pokemons[99]);
-pokemons[99].stages.push(pokemons[98], pokemons[99]);
+pokemons[97].stages.push(pokemons[97], pokemons[98]);
+pokemons[98].stages.push(pokemons[97], pokemons[98]);
 //Voltorb
-pokemons[100].stages.push(pokemons[100], pokemons[101]);
-pokemons[101].stages.push(pokemons[100], pokemons[101]);
+pokemons[99].stages.push(pokemons[99], pokemons[100]);
+pokemons[100].stages.push(pokemons[99], pokemons[100]);
 //Exeggcute
-pokemons[102].stages.push(pokemons[102], pokemons[103]);
-pokemons[103].stages.push(pokemons[102], pokemons[103]);
+pokemons[101].stages.push(pokemons[101], pokemons[102]);
+pokemons[102].stages.push(pokemons[101], pokemons[102]);
 //Cubone
-pokemons[104].stages.push(pokemons[104], pokemons[105]);
-pokemons[105].stages.push(pokemons[104], pokemons[105]);
+pokemons[103].stages.push(pokemons[103], pokemons[104]);
+pokemons[104].stages.push(pokemons[103], pokemons[104]);
 //Hitmonlee
-pokemons[106].stages.push(pokemons[106]);
+pokemons[105].stages.push(pokemons[105]);
 //Hitmonchan
-pokemons[107].stages.push(pokemons[107]);
+pokemons[106].stages.push(pokemons[106]);
 //Lickitung
-pokemons[108].stages.push(pokemons[108]);
+pokemons[107].stages.push(pokemons[107]);
 //Koffing
-pokemons[109].stages.push(pokemons[109], pokemons[110]);
-pokemons[110].stages.push(pokemons[109], pokemons[110]);
+pokemons[108].stages.push(pokemons[108], pokemons[109]);
+pokemons[109].stages.push(pokemons[108], pokemons[109]);
 //Rhyhorn
-pokemons[111].stages.push(pokemons[111], pokemons[112]);
-pokemons[112].stages.push(pokemons[111], pokemons[112]);
+pokemons[110].stages.push(pokemons[110], pokemons[111]);
+pokemons[111].stages.push(pokemons[110], pokemons[111]);
 //Chansey
-pokemons[113].stages.push(pokemons[113]);
+pokemons[112].stages.push(pokemons[112]);
 //Tangela
-pokemons[114].stages.push(pokemons[114]);
+pokemons[113].stages.push(pokemons[113]);
 //Khanghaskhan
-pokemons[115].stages.push(pokemons[115]);
+pokemons[114].stages.push(pokemons[114]);
 //Horsea
-pokemons[116].stages.push(pokemons[116], pokemons[117]);
-pokemons[117].stages.push(pokemons[116], pokemons[117]);
+pokemons[115].stages.push(pokemons[115], pokemons[116]);
+pokemons[116].stages.push(pokemons[115], pokemons[116]);
 //Golden
-pokemons[118].stages.push(pokemons[118], pokemons[119]);
-pokemons[119].stages.push(pokemons[118], pokemons[119]);
+pokemons[117].stages.push(pokemons[117], pokemons[118]);
+pokemons[118].stages.push(pokemons[117], pokemons[118]);
 //Staryu
-pokemons[120].stages.push(pokemons[120], pokemons[121]);
-pokemons[121].stages.push(pokemons[120], pokemons[121]);
+pokemons[119].stages.push(pokemons[119], pokemons[120]);
+pokemons[120].stages.push(pokemons[119], pokemons[120]);
 //Mr. Mime
-pokemons[122].stages.push(pokemons[122]);
+pokemons[121].stages.push(pokemons[121]);
 //Scyther
-pokemons[123].stages.push(pokemons[123]),
+pokemons[122].stages.push(pokemons[122]),
 //Jynx
-pokemons[124].stages.push(pokemons[124]);
+pokemons[123].stages.push(pokemons[123]);
 //Magmar
-pokemons[125].stages.push(pokemons[125]);
+pokemons[124].stages.push(pokemons[124]);
 //Pinsir
-pokemons[126].stages.push(pokemons[126]);
+pokemons[125].stages.push(pokemons[125]);
 //Tauros
-pokemons[127].stages.push(pokemons[127]);
+pokemons[126].stages.push(pokemons[126]);
 //Magikarp
-pokemons[128].stages.push(pokemons[128], pokemons[129]);
-pokemons[129].stages.push(pokemons[128], pokemons[129]);
+pokemons[127].stages.push(pokemons[127], pokemons[128]);
+pokemons[128].stages.push(pokemons[127], pokemons[128]);
 //Lapras
-pokemons[130].stages.push(pokemons[130]);
+pokemons[129].stages.push(pokemons[129]);
 //Ditto
-pokemons[131].stages.push(pokemons[131]);
+pokemons[130].stages.push(pokemons[130]);
 //Eevee
-pokemons[132].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
-pokemons[133].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
-pokemons[134].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
-pokemons[135].stages.push(pokemons[132], pokemons[133], pokemons[134], pokemons[135]);
+pokemons[131].stages.push(pokemons[131], pokemons[132], pokemons[133], pokemons[134]);
+pokemons[132].stages.push(pokemons[131], pokemons[132], pokemons[133], pokemons[134]);
+pokemons[133].stages.push(pokemons[131], pokemons[132], pokemons[133], pokemons[134]);
+pokemons[134].stages.push(pokemons[131], pokemons[132], pokemons[133], pokemons[134]);
 //Porygon
-pokemons[136].stages.push(pokemons[136]);
+pokemons[135].stages.push(pokemons[135]);
