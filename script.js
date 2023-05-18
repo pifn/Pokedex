@@ -124,6 +124,6 @@ function SelectPokemon(pkm) {
               <p class="description">${pokemon.description}</p>
             </div>
           </li>`;
-      list.innerHTML += p.stages.indexOf(pokemon) == p.stages.length - 1 ? "" : `<ul class="evolvesTo"><li><h5> Evolves to </h5></li><li><h5> -> </h5></li></ul>`
+      list.innerHTML += p.stages.indexOf(pokemon) == p.stages.length - 1 || p.stages.includes(pokemons[132]/*eevee*/) ? "" : `<ul class="evolvesTo"><li><h5> Evolves to </h5></li><li><h5> -> </h5></li></ul>`
       });
 }
