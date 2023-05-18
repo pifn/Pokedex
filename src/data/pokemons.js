@@ -1172,7 +1172,8 @@ var pokemons = [
       img:"",
       types:["Dragão"],
       description:
-      "Ele lança muitas camadas de pele à medida que cresce. Durante este processo, é protegido por uma rápida cachoeira."
+      "Ele lança muitas camadas de pele à medida que cresce. Durante este processo, é protegido por uma rápida cachoeira.",
+      stages:[]
     },
     {
       name:"Dragonair",
@@ -1207,76 +1208,76 @@ var pokemons = [
       stages:[]
     }
   ];
-  //Bulbasaur
+  //bulbasaur
 pokemons[0].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[1].stages.push(pokemons[0], pokemons[1], pokemons[2]);
 pokemons[2].stages.push(pokemons[0], pokemons[1], pokemons[2]);
-//Charmander
+//charmander
 pokemons[3].stages.push(pokemons[3], pokemons[4], pokemons[5]);
 pokemons[4].stages.push(pokemons[3], pokemons[4], pokemons[5]);
 pokemons[5].stages.push(pokemons[3], pokemons[4], pokemons[5]);
-//Squirtle
+//squirtle
 pokemons[6].stages.push(pokemons[6], pokemons[7], pokemons[8]);
 pokemons[7].stages.push(pokemons[6], pokemons[7], pokemons[8]);
 pokemons[8].stages.push(pokemons[6], pokemons[7], pokemons[8]);
-//Caterpie
+//caterpie
 pokemons[9].stages.push(pokemons[9], pokemons[10], pokemons[11]);
 pokemons[10].stages.push(pokemons[9], pokemons[10], pokemons[11]);
 pokemons[11].stages.push(pokemons[9], pokemons[10], pokemons[11]);
-//Weedle
+//weedle
 pokemons[12].stages.push(pokemons[12], pokemons[13], pokemons[14]);
 pokemons[13].stages.push(pokemons[12], pokemons[13], pokemons[14]);
 pokemons[14].stages.push(pokemons[12], pokemons[13], pokemons[14]);
-//Pidgey
+//pidgey
 pokemons[15].stages.push(pokemons[15], pokemons[16], pokemons[17]);
 pokemons[16].stages.push(pokemons[15], pokemons[16], pokemons[17]);
 pokemons[17].stages.push(pokemons[15], pokemons[16], pokemons[17]);
-//Rattata
+//rattata
 pokemons[18].stages.push(pokemons[18], pokemons[19]);
 pokemons[19].stages.push(pokemons[18], pokemons[19]);
-//Spearow
+//spearow
 pokemons[20].stages.push(pokemons[20], pokemons[21]);
 pokemons[21].stages.push(pokemons[20], pokemons[21]);
-//Ekans
+//ekans
 pokemons[22].stages.push(pokemons[22], pokemons[23]);
 pokemons[23].stages.push(pokemons[22], pokemons[23]);
-//Pikachu
+//pikachu
 pokemons[24].stages.push(pokemons[24], pokemons[25]);
 pokemons[25].stages.push(pokemons[24], pokemons[25]);
-//Sandshrew
+//sandshrew
 pokemons[26].stages.push(pokemons[26], pokemons[27]);
 pokemons[27].stages.push(pokemons[26], pokemons[27]);
-//Nidoran f
+//nidoran f
 pokemons[28].stages.push(pokemons[28], pokemons[29], pokemons[30]);
 pokemons[29].stages.push(pokemons[28], pokemons[29], pokemons[30]);
 pokemons[30].stages.push(pokemons[28], pokemons[29], pokemons[30]);
-//Nidoran m
+//nidoran m
 pokemons[31].stages.push(pokemons[31], pokemons[32], pokemons[33]);
 pokemons[32].stages.push(pokemons[31], pokemons[32], pokemons[33]);
 pokemons[33].stages.push(pokemons[31], pokemons[32], pokemons[33]);
-//Clefairy
+//clefairy
 pokemons[34].stages.push(pokemons[34], pokemons[35]);
 pokemons[35].stages.push(pokemons[34], pokemons[35]);
-//Vulpix
+//vulpix
 pokemons[36].stages.push(pokemons[36], pokemons[37]);
 pokemons[37].stages.push(pokemons[36], pokemons[37]);
-//Jigglypuff
+//jigglypuff
 pokemons[38].stages.push(pokemons[38], pokemons[39]);
 pokemons[39].stages.push(pokemons[38], pokemons[39]);
-//Zubat
+//zubat
 pokemons[40].stages.push(pokemons[40], pokemons[41]);
 pokemons[41].stages.push(pokemons[40], pokemons[41]);
-//Oddish
+//oddish
 pokemons[42].stages.push(pokemons[42], pokemons[43], pokemons[44]);
 pokemons[43].stages.push(pokemons[42], pokemons[43], pokemons[44]);
 pokemons[44].stages.push(pokemons[42], pokemons[43], pokemons[44]);
-//Paras
+//paras
 pokemons[45].stages.push(pokemons[45], pokemons[46]);
 pokemons[46].stages.push(pokemons[45], pokemons[46]);
-//Venonat
+//venonat
 pokemons[47].stages.push(pokemons[47], pokemons[48]);
 pokemons[48].stages.push(pokemons[47], pokemons[48]);
-//Digglet
+//digglet
 pokemons[49].stages.push(pokemons[49], pokemons[50]);
 pokemons[50].stages.push(pokemons[49], pokemons[50]);
 //Meowth
@@ -1437,3 +1438,5 @@ pokemons[148].stages.push(pokemons[146], pokemons[147], pokemons[148]);
 pokemons[149].stages.push(pokemons[149]);
 //Mew
 pokemons[150].stages.push(pokemons[150]);
+
+  
