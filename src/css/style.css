@@ -22,14 +22,19 @@ button {
     background:none;
     cursor:pointer;
 }
-header button:hover, header a:hover {
+.theme:hover{
     cursor: pointer;
     transform: rotate(360deg) scale(1.2);
     transition: 0.5s;
     transform-origin: center;
 }
-header button, header a {
-    transition: width 0.5s ease-in-out;
+.theme{
+    transition: width 0.7s ease-in-out;
+}
+.logo:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    transform-origin: center;
 }
 main{
     background-color:#faebdf;
@@ -81,20 +86,59 @@ span + span{
 li{
     list-style-type: none;
 }
-.agua {
-    background-color: #ADD8E6;
+.normal {
+    background-color: #A8A77A;
 }
 .fogo {
-    background-color: #edb78d;
+    background-color: #EE8130;
+}
+.agua {
+    background-color: #6390F0;
+}
+.eletrico {
+    background-color: #F7D02C;
 }
 .grama {
-    background-color: #90ee90
+    background-color: #7AC74C;
 }
-.veneno, .voador {
-    background-color:#CBC3E3
+.gelo {
+    background-color: #96D9D6;
+}
+.lutador {
+    background-color: #C22E28;
+}
+.veneno {
+    background-color: #A33EA1;
+}
+.terrestre {
+    background-color: #E2BF65;
+}
+.voador {
+    background-color: #A98FF3;
+}
+.psiquico {
+    background-color: #F95587;
 }
 .inseto {
-    background-color: #bb9;
+    background-color: #A6B91A;
+}
+.pedra {
+    background-color: #B6A136;
+}
+.fantasma {
+    background-color: #735797;
+}
+.dragao {
+    background-color: #6F35FC;
+}
+.sombrio {
+    background-color: #705746;
+}
+.metal {
+    background-color: #B7B7CE;
+}
+.fada {
+    background-color: #D685AD;
 }
 .types li + li{
     margin-left:5px;
@@ -118,7 +162,7 @@ body.dark{
     background-color: #a8a8a8;
 }
 .dark span{
-    background-color:#000;
+    background-color:#464545;
 }
 .dark main{
     background-color:#faebdf38;
