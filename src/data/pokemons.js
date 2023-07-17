@@ -834,7 +834,7 @@ var pokemons = [
     {
       name:"Marowak",
       img:"",
-      types:["Terreste"],
+      types:["Terrestre"],
       description:
       "Este Pokémon superou sua tristeza para desenvolver um novo corpo robusto. Marowak enfrenta seus oponentes bravamente, usando um osso como arma.",
       stages:[]
